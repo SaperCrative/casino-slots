@@ -1,6 +1,6 @@
 {
-    "name": "books-app",
-    "version": "1.2.0",
+    "name": "slots",
+    "version": "0.1.0",
     "description": "",
     "main": "index.html",
     "scripts": {
