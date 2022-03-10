@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <div class="background">
+        <img src='img/background2.png' style=" width:100%; height:100%; border-radius: 10px;">
+      </div>
+        <div class="game">
+              <div class="wheel">
+              </div>
+              <div class="nav-bar">
+                <div id="ammount-coins" class="ammount"></div>
+                <div id="win" class="ammount-win"></div>
+                <div class="game-set">
+                  <div class="btn-bet plus" onclick="bet('plus')">+</div>
+                  <div class="btn-spin" onclick="spin()"></div>
+                  <div class="btn-bet minus" onclick="bet('minus')">-</div>
+                </div>
+                <div class="bonus-win"></div>
+              </div>
+              <div class="music-toggle"><a onClick="togglePlay()" id="toggle">Music off</a></div>
+              <audio id="music" loop="loop" src="sound/background.ogg" type="audio/ogg"></audio>
+              <audio id="audio">
+                <source id="audioSource" src=""></source>
+              </audio>
+              <audio id="audiowin">
+                <source id="audioSourceWin" src=""></source>
+              </audio>
+              <audio id="audiobonus">
+                <source id="audioSourcebonus" src=""></source>
+              </audio>             
+        </div>
+      
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <script src="js/script.js"></script>
+    </body>
+</html>
